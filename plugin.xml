@@ -63,7 +63,7 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="ImagePicker" >
-        <param name="android-package" value="cordova.plugin.imagepicker.ImagePicker"/>
+        <param name="android-package" value="cordova.plugin.imagepicker.ImagePickerMain"/>
       </feature>
     </config-file>
 
