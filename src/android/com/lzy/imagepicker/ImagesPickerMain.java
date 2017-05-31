@@ -1,4 +1,4 @@
-package com.lzy.imagepicker;
+package com.lzy.ImagesPickerMain;
 
 
 import android.Manifest;
