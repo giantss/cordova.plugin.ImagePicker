@@ -1,0 +1,35 @@
+{
+  "name": "cordova.plugin.ImagePicker",
+  "version": "0.0.1",
+  "description": "codrova/phonegap wrapper for ImagePicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giantss/cordova.plugin.ImagePicker.git"
+  },
+  "cordova": {
+    "id": "cordova.plugin.ImagePicker",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "phonegap",
+    "plugin",
+    "ImagePicker"
+  ],
+  "author": "https://github.com/giantss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giantss/cordova.plugin.ImagePicker/issues"
+  },
+  "homepage": "https://github.com/giantss/cordova.plugin.ImagePicker"
+}
