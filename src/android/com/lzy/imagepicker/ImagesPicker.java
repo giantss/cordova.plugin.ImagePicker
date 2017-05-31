@@ -1,6 +1,16 @@
 package com.lzy.imagepicker;
 
 
+import android.Manifest;
+import android.content.Context;
+
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.CordovaWebView;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Created by Administrator on 2016/2/3.
  */
@@ -11,7 +21,7 @@ public class MultiImagesPicker extends CordovaPlugin {
     private static CordovaWebView webView = null;
     protected static Context context = null;
 
-    private  CallbackContext callbackContext;
+    private CallbackContext callbackContext;
     private JSONObject params;
 
     private int maximumImagesCount;
@@ -31,7 +41,7 @@ public class MultiImagesPicker extends CordovaPlugin {
 
         if (action.equals("getPictures")) {
 
- callbackContext.sendPluginResult('111');
+ callbackContext.success(11);
 
             return true;
         }
