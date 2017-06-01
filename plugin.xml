@@ -106,94 +106,94 @@
       <!-- 相机权限 -->
       <uses-permission android:name="android.permission.CAMERA"/>
 
-    </config-file>
- 
-      <source-file src="src/android/com/lzy/imagepicker/adapter/ImageFolderAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
-      <source-file src="src/android/com/lzy/imagepicker/adapter/ImageGridAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
-      <source-file src="src/android/com/lzy/imagepicker/adapter/ImagePageAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
-      <source-file src="src/android/com/lzy/imagepicker/adapter/ImageRecyclerAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
-      <source-file src="src/android/com/lzy/imagepicker/bean/ImageFolder.java" target-dir="src/com/lzy/imagepicker/bean" />
-      <source-file src="src/android/com/lzy/imagepicker/bean/ImageItem.java" target-dir="src/com/lzy/imagepicker/bean" />
-      <source-file src="src/android/com/lzy/imagepicker/loader/ImageLoader.java" target-dir="src/com/lzy/imagepicker/loader" />
-      <source-file src="src/android/com/lzy/imagepicker/ui/ImageBaseActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />
-      <source-file src="src/android/com/lzy/imagepicker/ui/ImageCropActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />
-      <source-file src="src/android/com/lzy/imagepicker/ui/ImageGridActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />
-      <source-file src="src/android/com/lzy/imagepicker/ui/ImagePreviewActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />
-      <source-file src="src/android/com/lzy/imagepicker/ui/ImagePreviewBaseActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />
-      <source-file src="src/android/com/lzy/imagepicker/ui/ImagePreviewDelActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />
-      <source-file src="src/android/com/lzy/imagepicker/util/BitmapUtil.java" target-dir="src/com/lzy/imagepicker/util" />
-      <source-file src="src/android/com/lzy/imagepicker/util/ProviderUtil.java" target-dir="src/com/lzy/imagepicker/util" />
-      <source-file src="src/android/com/lzy/imagepicker/util/Utils.java" target-dir="src/com/lzy/imagepicker/util" />
-      <source-file src="src/android/com/lzy/imagepicker/view/CropImageView.java" target-dir="src/com/lzy/imagepicker/view" />
-      <source-file src="src/android/com/lzy/imagepicker/view/FolderPopUpWindow.java" target-dir="src/com/lzy/imagepicker/view" />
-      <source-file src="src/android/com/lzy/imagepicker/view/SuperCheckBox.java" target-dir="src/com/lzy/imagepicker/view" />
-      <source-file src="src/android/com/lzy/imagepicker/view/SystemBarTintManager.java" target-dir="src/com/lzy/imagepicker/view" />
-      <source-file src="src/android/com/lzy/imagepicker/view/ViewPagerFixed.java" target-dir="src/com/lzy/imagepicker/view" />
-      <source-file src="src/android/com/lzy/imagepicker/DataHolder.java" target-dir="src/com/lzy/imagepicker" />
-      <source-file src="src/android/com/lzy/imagepicker/ImageDataSource.java" target-dir="src/com/lzy/imagepicker" />
-      <source-file src="src/android/com/lzy/imagepicker/ImagePicker.java" target-dir="src/com/lzy/imagepicker" />
-      <source-file src="src/android/com/lzy/imagepicker/ImagePickerProvider.java" target-dir="src/com/lzy/imagepicker" />
+    <!--</config-file>-->
+ <!---->
+      <!--<source-file src="src/android/com/lzy/imagepicker/adapter/ImageFolderAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/adapter/ImageGridAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/adapter/ImagePageAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/adapter/ImageRecyclerAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/bean/ImageFolder.java" target-dir="src/com/lzy/imagepicker/bean" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/bean/ImageItem.java" target-dir="src/com/lzy/imagepicker/bean" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/loader/ImageLoader.java" target-dir="src/com/lzy/imagepicker/loader" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ui/ImageBaseActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ui/ImageCropActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ui/ImageGridActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ui/ImagePreviewActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ui/ImagePreviewBaseActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ui/ImagePreviewDelActivity.java" target-dir="src/com/lzy/imagepicker/loader/ui" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/util/BitmapUtil.java" target-dir="src/com/lzy/imagepicker/util" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/util/ProviderUtil.java" target-dir="src/com/lzy/imagepicker/util" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/util/Utils.java" target-dir="src/com/lzy/imagepicker/util" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/view/CropImageView.java" target-dir="src/com/lzy/imagepicker/view" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/view/FolderPopUpWindow.java" target-dir="src/com/lzy/imagepicker/view" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/view/SuperCheckBox.java" target-dir="src/com/lzy/imagepicker/view" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/view/SystemBarTintManager.java" target-dir="src/com/lzy/imagepicker/view" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/view/ViewPagerFixed.java" target-dir="src/com/lzy/imagepicker/view" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/DataHolder.java" target-dir="src/com/lzy/imagepicker" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ImageDataSource.java" target-dir="src/com/lzy/imagepicker" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ImagePicker.java" target-dir="src/com/lzy/imagepicker" />-->
+      <!--<source-file src="src/android/com/lzy/imagepicker/ImagePickerProvider.java" target-dir="src/com/lzy/imagepicker" />-->
       <source-file src="src/android/com/lzy/imagepicker/ImagesPicker.java" target-dir="src/com/lzy/imagepicker" />
 
-      <source-file src="src/android/res/anim/bottom_in.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/bottom_out.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/fade_in.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/fade_out.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/hide_to_bottom.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/left_in.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/left_out.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/right_in.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/right_out.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/scale_in.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/scale_out.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/show_from_bottom.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/top_in.xml" target-dir="res/anim"/>
-      <source-file src="src/android/res/anim/top_out.xml" target-dir="res/anim"/>
+      <!--<source-file src="src/android/res/anim/bottom_in.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/bottom_out.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/fade_in.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/fade_out.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/hide_to_bottom.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/left_in.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/left_out.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/right_in.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/right_out.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/scale_in.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/scale_out.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/show_from_bottom.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/top_in.xml" target-dir="res/anim"/>-->
+      <!--<source-file src="src/android/res/anim/top_out.xml" target-dir="res/anim"/>-->
 
 
 
 
-      <source-file src="src/android/res/drawable/selector_back_press.xml" target-dir="res/drawable"/>
-      <source-file src="src/android/res/drawable/selector_grid_camera_bg.xml" target-dir="res/drawable"/>
-      <source-file src="src/android/res/drawable/selector_item_checked.xml" target-dir="res/drawable"/>
-      <source-file src="src/android/res/drawable/selector_top_ok.xml" target-dir="res/drawable"/>
+      <!--<source-file src="src/android/res/drawable/selector_back_press.xml" target-dir="res/drawable"/>-->
+      <!--<source-file src="src/android/res/drawable/selector_grid_camera_bg.xml" target-dir="res/drawable"/>-->
+      <!--<source-file src="src/android/res/drawable/selector_item_checked.xml" target-dir="res/drawable"/>-->
+      <!--<source-file src="src/android/res/drawable/selector_top_ok.xml" target-dir="res/drawable"/>-->
 
 
-      <source-file src="src/android/res/drawable-xxhdpi/bg_btn_dis.9.png" target-dir="res/drawable-xxhdpi"/>
-      <source-file src="src/android/res/drawable-xxhdpi/bg_btn_nor.9.png" target-dir="res/drawable-xxhdpi"/>
-      <source-file src="src/android/res/drawable-xxhdpi/bg_btn_pre.9.png" target-dir="res/drawable-xxhdpi"/>
+      <!--<source-file src="src/android/res/drawable-xxhdpi/bg_btn_dis.9.png" target-dir="res/drawable-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/drawable-xxhdpi/bg_btn_nor.9.png" target-dir="res/drawable-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/drawable-xxhdpi/bg_btn_pre.9.png" target-dir="res/drawable-xxhdpi"/>-->
 
 
-      <source-file src="src/android/res/layout/activity_image_crop.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/activity_image_grid.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/activity_image_preview.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/adapter_camera_item.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/adapter_folder_list_item.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/adapter_image_list_item.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/include_top_bar.xml" target-dir="res/layout"/>
-      <source-file src="src/android/res/layout/pop_folder.xml" target-dir="res/layout"/>
+      <!--<source-file src="src/android/res/layout/activity_image_crop.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/activity_image_grid.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/activity_image_preview.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/adapter_camera_item.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/adapter_folder_list_item.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/adapter_image_list_item.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/include_top_bar.xml" target-dir="res/layout"/>-->
+      <!--<source-file src="src/android/res/layout/pop_folder.xml" target-dir="res/layout"/>-->
 
-      <source-file src="src/android/res/mipmap-xxhdpi/checkbox_checked.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/checkbox_normal.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/default_image.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/grid_camera.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/ic_back.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/ic_del.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/list_selected.png" target-dir="res/mipmap-xxhdpi"/>
-      <source-file src="src/android/res/mipmap-xxhdpi/text_indicator.png" target-dir="res/mipmap-xxhdpi"/>
-
-
-      <source-file src="src/android/res/values/attrs.xml" target-dir="res/values"/>
-      <source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>
-<!--       <source-file src="src/android/res/values/strings.xml" target-dir="res/values"/> -->
-      <source-file src="src/android/res/values/styles.xml" target-dir="res/values"/>
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/checkbox_checked.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/checkbox_normal.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/default_image.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/grid_camera.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/ic_back.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/ic_del.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/list_selected.png" target-dir="res/mipmap-xxhdpi"/>-->
+      <!--<source-file src="src/android/res/mipmap-xxhdpi/text_indicator.png" target-dir="res/mipmap-xxhdpi"/>-->
 
 
-      <source-file src="src/android/res/xml/provider_paths.xml" target-dir="res/xml"/>
+      <!--<source-file src="src/android/res/values/attrs.xml" target-dir="res/values"/>-->
+      <!--<source-file src="src/android/res/values/colors.xml" target-dir="res/values"/>-->
+<!--&lt;!&ndash;       <source-file src="src/android/res/values/strings.xml" target-dir="res/values"/> &ndash;&gt;-->
+      <!--<source-file src="src/android/res/values/styles.xml" target-dir="res/values"/>-->
+
+
+      <!--<source-file src="src/android/res/xml/provider_paths.xml" target-dir="res/xml"/>-->
 
       <framework src="com.android.support:appcompat-v7:25.1.1" value="gradle" />
       <framework src="com.android.support:recyclerview-v7:25.1.1" value="gradle" />
-
+      <framework src="src/android/libs" custom="true"/>
 
   
 
