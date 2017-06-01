@@ -106,7 +106,7 @@
       <!-- 相机权限 -->
       <uses-permission android:name="android.permission.CAMERA"/>
 
-    <!--</config-file>-->
+    </config-file>
  <!---->
       <!--<source-file src="src/android/com/lzy/imagepicker/adapter/ImageFolderAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />-->
       <!--<source-file src="src/android/com/lzy/imagepicker/adapter/ImageGridAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />-->
@@ -193,7 +193,7 @@
 
       <framework src="com.android.support:appcompat-v7:25.1.1" value="gradle" />
       <framework src="com.android.support:recyclerview-v7:25.1.1" value="gradle" />
-<!--       <framework src="src/android/Library" custom="true"/> -->
+      <framework src="src/android/Library" custom="true"/>
 
   
 
